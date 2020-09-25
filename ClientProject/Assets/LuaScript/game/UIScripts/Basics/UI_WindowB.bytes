@@ -1,0 +1,44 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_WindowB : fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_frame UI_WindowFrameB
+---@field public m_t1 Transition
+local UI_WindowB = class("UI_WindowB");
+
+UI_WindowB.URL = "ui://9leh0eyfnil";
+
+function UI_WindowB:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","WindowB");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_WindowB:OnConstruct()
+	self.m_frame = self.__ui:GetChild("frame");
+	self.m_t1 = self.__ui:GetTransition("t1");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_WindowB:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowBonInit")
+    self.contentPane = UIPackage.CreateObject("Basics","WindowB");
+end
+
+function UI_WindowB:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowBShown")
+end
+
+function UI_WindowB:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowBHide")
+end
+
+function UI_WindowB:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_WindowB:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_WindowB;

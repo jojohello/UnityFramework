@@ -1,0 +1,51 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoPlayerMapLife";
+option optimize_for = SPEED;
+
+import "RoleTemple.proto";
+import "RoleFashionTemple.proto";
+import "MapLife.proto";
+
+//
+message PlayerMapLife{
+    //msgId = 707;
+    //
+    optional MapLife parentPlayerMapLife = 1;
+    //
+    optional int64 roleId = 2;
+    //
+    optional string name = 3;
+    //
+    optional int32 vocation = 4;
+    //
+    optional int32 sex = 5;
+    //
+    optional int32 level = 6;
+    //
+    optional int32 headIcon = 7;
+    //
+    optional int32 hairId = 8;
+    //
+    optional int32 hairColorId = 9;
+    //瞳色id
+    optional int32 eyeColorId = 10;
+    //眼睛id
+    optional int32 eyeId = 11;
+    //语音id
+    optional int32 voiceId = 12;
+    //变身id为0：则不是变身
+    optional int32 shapedId = 13;
+    //装备外观显示id类型:ID;...
+    optional string equipSuitId = 14;
+    //玩家圣殿信息
+    optional RoleTemple roleTemple = 15;
+    //坐骑id
+    optional int32 mountsId = 16;
+    //玩家时装信息
+    optional RoleFashionTemple roleFashionTemple = 17;
+    //伴生兽id
+    optional int32 beastId = 18;
+    //强化大师特效id
+    optional int32 strengthEffectId = 19;
+}

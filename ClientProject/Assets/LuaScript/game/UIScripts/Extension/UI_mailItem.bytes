@@ -1,0 +1,39 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+local UI_mailItem=fgui.window_class(WindowBase)
+---@field public __ui GButton
+---@field public m_IsRead Controller
+---@field public m_c1 Controller
+---@field public m_timeText GTextField
+---@field public m_t0 Transition
+--local UI_mailItem = class("UI_mailItem");
+
+UI_mailItem.URL = "ui://jou4kj6pnil";
+
+
+function UI_mailItem:OnConstruct()
+	self.m_IsRead = self.__ui:GetController("IsRead");
+	self.m_c1 = self.__ui:GetController("c1");
+	self.m_timeText = self.__ui:GetChild("timeText");
+	self.m_t0 = self.__ui:GetTransition("t0");
+end
+
+function UI_mailItem:BindEvent()
+
+end
+
+function UI_mailItem:OnInit(contentPane)
+    self.contentPane = contentPane
+	self:OnConstruct();
+	self:BindEvent();
+end
+
+function UI_mailItem:OnShown()
+    
+end
+
+function UI_mailItem:OnHide()
+    
+end
+
+return UI_mailItem;

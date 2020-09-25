@@ -1,0 +1,13 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoSCRoleInfoList";
+option optimize_for = SPEED;
+
+import "RoleAppearanceInfo.proto";
+
+//本服角色列表信息
+message SCRoleInfoList{
+    //msgId = 210;
+    //角色列表
+    repeated RoleAppearanceInfo roleInfos = 1;
+}

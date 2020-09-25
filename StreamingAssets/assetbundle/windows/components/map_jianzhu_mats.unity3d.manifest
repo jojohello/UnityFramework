@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2191615416
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2847bbd42127cdea607703a0d9f9830
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/map_jianzhu/Materials/tex_7001_huacao01.mat
+- Assets/_Resource/3Dmap/components/map_jianzhu/Materials/map_7201_fz_01_01.mat
+- Assets/_Resource/3Dmap/components/map_jianzhu/Materials/tex_7004_jz_04_01.mat
+- Assets/_Resource/3Dmap/components/map_jianzhu/Materials/tex_7004_jz_08_01.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

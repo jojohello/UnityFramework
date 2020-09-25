@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2517062118
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c7949fa9e6e5a92c2f2a64c7bb71673
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a1196127955aab835f9014c2a1703ec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_zu_cao01.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_wj_05_c.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_st_01_04.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7004_tz_02.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_8009_zu_cao.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7004_tz_01.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7004_tz_03.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_muban01.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_ld_01c.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_jz_09_02.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_st_01_05.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7004_xsk_04.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7004_xsk_03.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_st_01_01.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_jz_02_01.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_wj_02.FBX
+- Assets/_Resource/3Dmap/components/map_shitou/Models/map_7005_st_01_02.FBX
+Dependencies: []

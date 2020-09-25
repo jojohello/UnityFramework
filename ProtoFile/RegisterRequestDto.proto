@@ -1,0 +1,36 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoRegisterRequestDto";
+option optimize_for = SPEED;
+
+
+//创角请求
+message RegisterRequestDto{
+    //msgId = 11;
+    //账号
+    optional string account = 1;
+    //名称
+    optional string name = 2;
+    //性别
+    optional int32 sex = 3;
+    //职业
+    optional int32 vocation = 4;
+    //平台
+    optional string platform = 5;
+    //合作运营商
+    optional string channel = 6;
+    //imei
+    optional string imei = 7;
+    //瞳色id
+    optional int32 eyeColorId = 9;
+    //头发
+    optional int32 hairColorId = 10;
+    //头发模型Id
+    optional int32 hairId = 11;
+    //眼睛id
+    optional int32 eyeId = 12;
+    //语音id
+    optional int32 voiceId = 13;
+    //头像id
+    optional int32 headIcon = 14;
+}

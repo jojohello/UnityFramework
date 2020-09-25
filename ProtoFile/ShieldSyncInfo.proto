@@ -1,0 +1,14 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoShieldSyncInfo";
+option optimize_for = SPEED;
+
+
+//护盾同步结构
+message ShieldSyncInfo{
+    //msgId = 466;
+    //护盾类型
+    optional int32 type = 1;
+    //护盾值
+    optional double value = 2;
+}

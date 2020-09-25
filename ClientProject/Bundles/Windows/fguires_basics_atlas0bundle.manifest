@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1124522027
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a458a7495220dbc9c75bfa2da0f3e25e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/UI/FguiRes/Basics_atlas0.png
+Dependencies: []

@@ -1,0 +1,42 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_Button5 : fgui.window_class(WindowBase)
+---@field public __ui GButton
+---@field public m_bg GImage
+local UI_Button5 = class("UI_Button5");
+
+UI_Button5.URL = "ui://9leh0eyfnil";
+
+function UI_Button5:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","Button5");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_Button5:OnConstruct()
+	self.m_bg = self.__ui:GetChild("bg");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_Button5:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_Button5onInit")
+    self.contentPane = UIPackage.CreateObject("Basics","Button5");
+end
+
+function UI_Button5:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_Button5Shown")
+end
+
+function UI_Button5:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_Button5Hide")
+end
+
+function UI_Button5:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_Button5:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_Button5;

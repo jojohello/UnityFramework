@@ -1,0 +1,49 @@
+local _, LuaDebuggee = pcall(require, 'LuaDebuggee')
+if LuaDebuggee and LuaDebuggee.StartDebug then
+	if LuaDebuggee.StartDebug('127.0.0.1', 9827) then
+		print('LuaPerfect: Successfully connected to debugger!')
+	else
+		print('LuaPerfect: Failed to connect debugger!')
+	end
+else
+	print('LuaPerfect: Check documents at: https://luaperfect.net')
+end
+
+Game = Game or {}
+Game.isInit = false
+
+function Game.Init()
+    CS.UnityEngine.Debug.Log("init game")
+
+    Game.m_states = require("GameStates/GameStatesManager")
+
+    Game.isInit = true
+end
+
+function GameTime()
+    return CS.UnityEngine.Time.realtimeSinceStartup
+end
+
+function GameTimeSinceLoadLevel()
+    return CS.UnityEngine.Time.timeSinceLevelLoad
+end
+
+function Game.EnterScene()
+    if Game.m_scene == nil then
+        Game.m_scene = SceneManager.create
+    end
+end
+----------------------------------------------------------------------
+local GameTime = GameTime
+function Update()
+    --CS.UnityEngine.Debug.Log('hello world')
+    if Game.isInit == false then
+        Game.Init()
+    end
+	
+    Game.m_states:Update(GameTime())
+end
+
+function LateUpdate()
+    
+end

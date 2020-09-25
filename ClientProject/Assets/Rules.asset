@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03142c330ced64e0ab46cddcd0484ab7, type: 3}
+  m_Name: Rules
+  m_EditorClassIdentifier: 
+  build: 2
+  major: 1
+  minor: 1
+  autoRecordOnAssetLoaded: 0
+  autoGroupByDirectories: []
+  validateAssetPath: 0
+  allAssetsToBuild: 0
+  patchesInBuild:
+  - Splash
+  - Title
+  scenesInBuild:
+  - {fileID: 102900000, guid: b3b41d8cebde9274f8b684adec633a95, type: 3}
+  extension: bundle
+  nameByHash: 0
+  options: 256
+  assets:
+  - name: Assets/XAsset/Demo/Scenes/Splash.unity
+    group: 
+    bundle: scenes_splashbundle
+    id: 0
+    groupBy: 2
+  - name: Assets/XAsset/Demo/Scenes/Title.unity
+    group: 
+    bundle: scenes_titlebundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/yinghuochong_1021_01.prefab
+    group: 
+    bundle: sceneeffect_yinghuochong_1021_01bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/Effect_guangzhao_01.prefab
+    group: 
+    bundle: sceneeffect_effect_guangzhao_01bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/Effect_wu_06.prefab
+    group: 
+    bundle: sceneeffect_effect_wu_06bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/Effect_wu_02.prefab
+    group: 
+    bundle: sceneeffect_effect_wu_02bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/yinghuochong.prefab
+    group: 
+    bundle: sceneeffect_yinghuochongbundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/Effect_wu_01.prefab
+    group: 
+    bundle: sceneeffect_effect_wu_01bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Effect/SceneEffect/Effect_wu_05.prefab
+    group: 
+    bundle: sceneeffect_effect_wu_05bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/Shader/FGUI/FairyGUI-Image.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/NewShaderVariants.shadervariants
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_SceneEntry.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Cutout.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Terrain_2Texture.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_AlphaTexture.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Sea.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/FGUI/AddOn/FairyGUI-BlurFilter.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_TextureSwitchFog.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Particle/ParticlesAdditive.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Diffuse.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Terrain_4Texture.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Character_Wind.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/FGUI/FairyGUI-Text.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/wind2_Character_Water.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/Scene/Standard.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/Shader/FGUI/FairyGUI-BMFont.shader
+    group: shaders
+    bundle: shadersbundle
+    id: 0
+    groupBy: 1
+  - name: Assets/_Resource/UI/FguiRes/LoginPanel_fui.bytes
+    group: 
+    bundle: fguires_loginpanel_fuibundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/UI/FguiRes/LoginPanel_atlas0.png
+    group: 
+    bundle: fguires_loginpanel_atlas0bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/UI/FguiRes/Basics_gojg7u.wav
+    group: 
+    bundle: fguires_basics_gojg7ubundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/UI/FguiRes/Basics_fui.bytes
+    group: 
+    bundle: fguires_basics_fuibundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/UI/FguiRes/Basics_o4lt7w.wav
+    group: 
+    bundle: fguires_basics_o4lt7wbundle
+    id: 0
+    groupBy: 2
+  - name: Assets/_Resource/UI/FguiRes/Basics_atlas0.png
+    group: 
+    bundle: fguires_basics_atlas0bundle
+    id: 0
+    groupBy: 2
+  patches:
+  - name: Splash
+    assets:
+    - Assets/XAsset/Demo/Scenes/Splash.unity
+  - name: Title
+    assets:
+    - Assets/XAsset/Demo/Scenes/Title.unity
+    - Assets/_Resource/Effect/SceneEffect/yinghuochong_1021_01.prefab
+    - Assets/_Resource/Effect/SceneEffect/Effect_guangzhao_01.prefab
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_06.prefab
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_02.prefab
+    - Assets/_Resource/Effect/SceneEffect/yinghuochong.prefab
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_01.prefab
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_05.prefab
+    - Assets/_Resource/Shader/FGUI/FairyGUI-Image.shader
+    - Assets/_Resource/Shader/NewShaderVariants.shadervariants
+    - Assets/_Resource/Shader/Scene/wind2_SceneEntry.shader
+    - Assets/_Resource/Shader/Scene/wind2_Cutout.shader
+    - Assets/_Resource/Shader/Scene/wind2_Terrain_2Texture.shader
+    - Assets/_Resource/Shader/Scene/wind2_AlphaTexture.shader
+    - Assets/_Resource/Shader/Scene/wind2_Sea.shader
+    - Assets/_Resource/Shader/FGUI/AddOn/FairyGUI-BlurFilter.shader
+    - Assets/_Resource/Shader/Scene/wind2_TextureSwitchFog.shader
+    - Assets/_Resource/Shader/Particle/ParticlesAdditive.shader
+    - Assets/_Resource/Shader/Scene/wind2_Diffuse.shader
+    - Assets/_Resource/Shader/Scene/wind2_Terrain_4Texture.shader
+    - Assets/_Resource/Shader/Scene/wind2_Character_Wind.shader
+    - Assets/_Resource/Shader/FGUI/FairyGUI-Text.shader
+    - Assets/_Resource/Shader/Scene/wind2_Character_Water.shader
+    - Assets/_Resource/Shader/Scene/Standard.shader
+    - Assets/_Resource/Shader/FGUI/FairyGUI-BMFont.shader
+    - Assets/_Resource/UI/FguiRes/LoginPanel_fui.bytes
+    - Assets/_Resource/UI/FguiRes/LoginPanel_atlas0.png
+  - name: Game
+    assets:
+    - Assets/_Resource/UI/FguiRes/LoginPanel_fui.bytes
+    - Assets/_Resource/UI/FguiRes/LoginPanel_atlas0.png
+    - Assets/_Resource/UI/FguiRes/Basics_gojg7u.wav
+    - Assets/_Resource/UI/FguiRes/Basics_fui.bytes
+    - Assets/_Resource/UI/FguiRes/Basics_o4lt7w.wav
+    - Assets/_Resource/UI/FguiRes/Basics_atlas0.png
+  bundles:
+  - id: 0
+    assetBundleName: scenes_splashbundle
+    assetNames:
+    - Assets/XAsset/Demo/Scenes/Splash.unity
+    isScene: 0
+  - id: 1
+    assetBundleName: scenes_titlebundle
+    assetNames:
+    - Assets/XAsset/Demo/Scenes/Title.unity
+    isScene: 0
+  - id: 2
+    assetBundleName: sceneeffect_yinghuochong_1021_01bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/yinghuochong_1021_01.prefab
+    isScene: 0
+  - id: 3
+    assetBundleName: sceneeffect_effect_guangzhao_01bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/Effect_guangzhao_01.prefab
+    isScene: 0
+  - id: 4
+    assetBundleName: sceneeffect_effect_wu_06bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_06.prefab
+    isScene: 0
+  - id: 5
+    assetBundleName: sceneeffect_effect_wu_02bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_02.prefab
+    isScene: 0
+  - id: 6
+    assetBundleName: sceneeffect_yinghuochongbundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/yinghuochong.prefab
+    isScene: 0
+  - id: 7
+    assetBundleName: sceneeffect_effect_wu_01bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_01.prefab
+    isScene: 0
+  - id: 8
+    assetBundleName: sceneeffect_effect_wu_05bundle
+    assetNames:
+    - Assets/_Resource/Effect/SceneEffect/Effect_wu_05.prefab
+    isScene: 0
+  - id: 9
+    assetBundleName: shadersbundle
+    assetNames:
+    - Assets/_Resource/Shader/FGUI/FairyGUI-Image.shader
+    - Assets/_Resource/Shader/NewShaderVariants.shadervariants
+    - Assets/_Resource/Shader/Scene/wind2_SceneEntry.shader
+    - Assets/_Resource/Shader/Scene/wind2_Cutout.shader
+    - Assets/_Resource/Shader/Scene/wind2_Terrain_2Texture.shader
+    - Assets/_Resource/Shader/Scene/wind2_AlphaTexture.shader
+    - Assets/_Resource/Shader/Scene/wind2_Sea.shader
+    - Assets/_Resource/Shader/FGUI/AddOn/FairyGUI-BlurFilter.shader
+    - Assets/_Resource/Shader/Scene/wind2_TextureSwitchFog.shader
+    - Assets/_Resource/Shader/Particle/ParticlesAdditive.shader
+    - Assets/_Resource/Shader/Scene/wind2_Diffuse.shader
+    - Assets/_Resource/Shader/Scene/wind2_Terrain_4Texture.shader
+    - Assets/_Resource/Shader/Scene/wind2_Character_Wind.shader
+    - Assets/_Resource/Shader/FGUI/FairyGUI-Text.shader
+    - Assets/_Resource/Shader/Scene/wind2_Character_Water.shader
+    - Assets/_Resource/Shader/Scene/Standard.shader
+    - Assets/_Resource/Shader/FGUI/FairyGUI-BMFont.shader
+    isScene: 0
+  - id: 10
+    assetBundleName: fguires_loginpanel_fuibundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/LoginPanel_fui.bytes
+    isScene: 0
+  - id: 11
+    assetBundleName: fguires_loginpanel_atlas0bundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/LoginPanel_atlas0.png
+    isScene: 0
+  - id: 12
+    assetBundleName: fguires_basics_gojg7ubundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/Basics_gojg7u.wav
+    isScene: 0
+  - id: 13
+    assetBundleName: fguires_basics_fuibundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/Basics_fui.bytes
+    isScene: 0
+  - id: 14
+    assetBundleName: fguires_basics_o4lt7wbundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/Basics_o4lt7w.wav
+    isScene: 0
+  - id: 15
+    assetBundleName: fguires_basics_atlas0bundle
+    assetNames:
+    - Assets/_Resource/UI/FguiRes/Basics_atlas0.png
+    isScene: 0
+  - id: 16
+    assetBundleName: children_scenes_splashbundlebundle
+    assetNames:
+    - Assets/XAsset/Demo/UI/Animations/SplashScreen.controller
+    - Assets/XAsset/Demo/UI/Animations/SplashScreen.anim
+    - Assets/XAsset/AppIcon.png
+    isScene: 0
+  - id: 17
+    assetBundleName: children_scenes_titlebundlebundle
+    assetNames:
+    - Assets/XAsset/Demo/UI/Sprites/Title/Title2_bg.png
+    - Assets/XAsset/Demo/UI/Sprites/Title/Btn_User_n.png
+    - Assets/XAsset/Demo/UI/Sprites/Title/Btn_User_h.png
+    - Assets/XAsset/Demo/UI/Sprites/Title/Progress1.png
+    - Assets/XAsset/Demo/UI/Animations/TOUCHTOSTART.anim
+    - Assets/XAsset/Demo/UI/Sprites/Backgrounds/bg_LoadingPage.png
+    - Assets/XAsset/Demo/UI/Sprites/Title/bg_Progress.png
+    - Assets/XAsset/Demo/UI/Animations/START.controller
+    - Assets/XAsset/Demo/UI/Sprites/Title/Progress2.png
+    isScene: 0
+  - id: 18
+    assetBundleName: children_sceneeffect_yinghuochong_1021_01bundlebundle
+    assetNames:
+    - Assets/_Resource/Effect/Textures/05glow/ML_glow_08.png
+    - Assets/_Resource/Effect/Textures/05glow/Materials/ML_glow_08_add.mat
+    isScene: 0
+  - id: 19
+    assetBundleName: children_sceneeffect_effect_guangzhao_01bundlebundle
+    assetNames:
+    - Assets/_Resource/Effect/Textures/10trail/Materials/ML_trail_029.mat
+    - Assets/_Resource/Effect/Mesh/HSL_pengshe_01_rd_tyh.FBX
+    - Assets/_Resource/Effect/Textures/10trail/ML_trail_029.png
+    isScene: 0
+  - id: 20
+    assetBundleName: children_sceneeffect_effect_wu_06bundlebundle
+    assetNames:
+    - Assets/_Resource/Effect/Textures/09smoke/Materials/ML_smoke_013_add.mat
+    - Assets/_Resource/Effect/Textures/09smoke/ML_smoke_013.png
+    isScene: 0
+  currentScene: Title

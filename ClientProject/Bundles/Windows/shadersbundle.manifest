@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 731472010
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77493c7eccbe1c4073f1b96a9c3ca62c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7f0bffc1563fad4b76a0da6fdabbfa72
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 200
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Shader/NewShaderVariants.shadervariants
+- Assets/_Resource/Shader/FGUI/AddOn/FairyGUI-BlurFilter.shader
+- Assets/_Resource/Shader/FGUI/FairyGUI-Text.shader
+- Assets/_Resource/Shader/Scene/wind2_Terrain_2Texture.shader
+- Assets/_Resource/Shader/Scene/wind2_SceneEntry.shader
+- Assets/_Resource/Shader/Scene/wind2_Terrain_4Texture.shader
+- Assets/_Resource/Shader/Scene/wind2_Diffuse.shader
+- Assets/_Resource/Shader/Scene/wind2_Character_Wind.shader
+- Assets/_Resource/Shader/FGUI/FairyGUI-Image.shader
+- Assets/_Resource/Shader/Scene/wind2_Character_Water.shader
+- Assets/_Resource/Shader/Scene/wind2_Cutout.shader
+- Assets/_Resource/Shader/Scene/wind2_TextureSwitchFog.shader
+- Assets/_Resource/Shader/Particle/ParticlesAdditive.shader
+- Assets/_Resource/Shader/Scene/Standard.shader
+- Assets/_Resource/Shader/Scene/wind2_Sea.shader
+- Assets/_Resource/Shader/Scene/wind2_AlphaTexture.shader
+- Assets/_Resource/Shader/FGUI/FairyGUI-BMFont.shader
+Dependencies: []

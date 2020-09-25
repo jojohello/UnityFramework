@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: map_1002_dimian_01
+  m_Shader: {fileID: 4800000, guid: fc4947b671ac06749ade7ec89fd0d794, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Control:
+        m_Texture: {fileID: 2800000, guid: 37614ca1d31324c409fa21d17feba89f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 2800000, guid: df9b47a648f6e9649b9f3b901ee5f40c, type: 3}
+        m_Scale: {x: 65, y: 65}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 2800000, guid: a53e7d47015a9d9458bf114800c305a9, type: 3}
+        m_Scale: {x: 18, y: 18}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 2800000, guid: 962294535a20255439292491e7b980e4, type: 3}
+        m_Scale: {x: 86, y: 86}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Control:
+        m_Texture: {fileID: 2800000, guid: 1272dc5590bea2b419899498efcfe6c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat1:
+        m_Texture: {fileID: 2800000, guid: df9b47a648f6e9649b9f3b901ee5f40c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat2:
+        m_Texture: {fileID: 2800000, guid: a53e7d47015a9d9458bf114800c305a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat3:
+        m_Texture: {fileID: 2800000, guid: 962294535a20255439292491e7b980e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _LightScale: 1
+    - _OffSet: 0.29
+    - _Speedx: 1
+    - _Speedy: 1
+    - _V_T2M_Splat1_uvScale: 65
+    - _V_T2M_Splat2_uvScale: 17.333334
+    - _V_T2M_Splat3_uvScale: 86.666664
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor: {r: 0, g: 0, b: 0, a: 0}

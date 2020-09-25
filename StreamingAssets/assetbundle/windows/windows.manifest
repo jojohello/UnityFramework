@@ -1,0 +1,143 @@
+ManifestFileVersion: 0
+CRC: 164002470
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: shader/shaderex.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: gui/texture/bgtexture/bgtexture.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: gui/ui/createrolesystemview.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: gui/ui/selectrolesystemview.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: gui/ui/wind2_announcementview.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: gui/ui/wind2_loginscenepanel.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: gui/atlas//commonuiatlas.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_7:
+      Name: gui/atlas//createrolesystematlas.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_8:
+      Name: gui/atlas//loginatlas.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_9:
+      Name: gui/atlas//roleicon.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_10:
+      Name: gui/font/semibold_bitmap.unity3d
+      Dependencies: {}
+    Info_11:
+      Name: gui/font/hanyi_4.unity3d
+      Dependencies:
+        Dependency_0: gui/font/semibold.unity3d
+    Info_12:
+      Name: gui/font/semibold.unity3d
+      Dependencies:
+        Dependency_0: gui/font/hanyi_4.unity3d
+    Info_13:
+      Name: components/100202_mesh.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: components/map_shitou_mesh.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: components/map_shu_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_16:
+      Name: components/1003_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_17:
+      Name: components/1002_mesh.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: components/1003_mesh.unity3d
+      Dependencies: {}
+    Info_19:
+      Name: components/100202_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_20:
+      Name: components/map_dimian_mesh.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: components/map_shu_mesh.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: components/map_water_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_23:
+      Name: components/1001_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_24:
+      Name: components/map_shu_g_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_25:
+      Name: components/map_jianzhu_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_26:
+      Name: components/map_shitou_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_27:
+      Name: components/map_sky_mesh.unity3d
+      Dependencies: {}
+    Info_28:
+      Name: components/map_xiaowujian01_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_29:
+      Name: components/1002_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_30:
+      Name: components/map_jianzhu_mesh.unity3d
+      Dependencies: {}
+    Info_31:
+      Name: components/map_zhiwu_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_32:
+      Name: components/map_water_mesh.unity3d
+      Dependencies: {}
+    Info_33:
+      Name: components/map_zhiwu_mesh.unity3d
+      Dependencies: {}
+    Info_34:
+      Name: components/map_sky_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_35:
+      Name: components/1001_mesh.unity3d
+      Dependencies: {}
+    Info_36:
+      Name: components/map_dimian_mats.unity3d
+      Dependencies:
+        Dependency_0: shader/shaderex.unity3d
+    Info_37:
+      Name: 3dmap/scene/1002lightmap.unity3d
+      Dependencies: {}
+    Info_38:
+      Name: 3dmap/scene/1002.unity3d
+      Dependencies: {}
+    Info_39:
+      Name: 3dmap/data/1002data.unity3d
+      Dependencies: {}

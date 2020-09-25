@@ -1,0 +1,32 @@
+---------------------------------------------------------------------
+-- new_client (C) CompanyName, All Rights Reserved
+-- Created by: AuthorName
+-- Date: 2020-02-19 17:27:56
+---------------------------------------------------------------------
+
+-- To edit this template in: Data/Config/Template.lua
+-- To disable this template, check off menuitem: Options-Enable Template File
+
+---@class BaseState
+local BaseState = class("BaseState")
+
+function BaseState:ctor()
+	-- jojohello log
+end
+
+function BaseState:Enter()
+	-- jojohello log
+	--CS.UnityEngine.Debug.Log('BaseState:Enter ')
+end
+
+function BaseState:Update(curTime)
+	-- jojohello log
+	--CS.UnityEngine.Debug.Log('BaseState:Update')
+end
+
+function BaseState:Leave()
+	-- jojohello log
+	--CS.UnityEngine.Debug.Log('BaseState:Leave')
+end
+
+return BaseState

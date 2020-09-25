@@ -1,0 +1,56 @@
+-- 简单的缓存库，用于复用，提高效率
+-- 该库本身没有什么技术含量，但是对于其缓存的对象，会有一定的要求
+-- 其缓存的对象内的变量，必须在同一个地方创建并进行初始化，否则会出现复用后异常，其实这个也是所有复用实例的要求
+
+-- CachePool --------------------------------------------------------
+local CachePool = class("CachePool")
+
+function CachePool:ctor()
+    self.poolList = {}
+end
+
+function CachePool:Spawn()
+    if self.poolList.Length > 0 then
+        local ret = self.poolList[1]
+        table.remove(self.poolList, 1)
+        return ret
+    else
+        return self.NewObject()
+    end
+end
+
+function CachePool:NewObject()
+end
+
+function CachePool:Despawn(object)
+    table.insert(self.poolList, object )
+end
+
+-- MultiCachePool --------------------------------------------------------
+MultiCachePool = class("MultiCachePool")
+function MultiCachePool:ctor()
+    self.poolDict = {}
+end
+
+function MultiCachePool:Spawn(objcetType)
+    if self.poolDict[objectType] ~= nil and self.poolList.Length > 0 then
+        local ret = self.poolDict[objectType][1]
+        table.remove(self.poolList[objectType], 1)
+        return ret
+    else
+        return self.NewObject(objectType)
+    end
+end
+
+function MultiCachePool:NewObject(objectType)
+end
+
+function CachePool:Despawn(objectType, object)
+    if self.poolDict[objectType] == nil then
+        self.poolDict[objectType] = {}
+    end
+
+    table.insert(self.poolDict[objectType], object )
+end
+
+return CachePool

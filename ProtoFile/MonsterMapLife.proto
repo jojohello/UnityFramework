@@ -1,0 +1,20 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoMonsterMapLife";
+option optimize_for = SPEED;
+
+import "MonsterAnim.proto";
+import "MapLife.proto";
+
+//
+message MonsterMapLife{
+    //msgId = 708;
+    //
+    optional MapLife parentMonsterMapLife = 1;
+    //
+    optional int64 monsterId = 2;
+    //
+    optional double fixer = 3;
+    //
+    optional MonsterAnim anims = 6;
+}

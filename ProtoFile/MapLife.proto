@@ -1,0 +1,35 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoMapLife";
+option optimize_for = SPEED;
+
+import "MapLifeRoute.proto";
+import "ShieldSyncInfo.proto";
+import "BuffStruct.proto";
+
+//
+message MapLife{
+    //msgId = 728;
+    //
+    optional int64 id = 1;
+    //
+    optional float px = 2;
+    //
+    optional float py = 3;
+    //
+    optional int32 hp = 4;
+    //
+    optional int32 maxHp = 5;
+    //
+    repeated int32 fightStates = 6;
+    //
+    repeated BuffStruct buffs = 7;
+    //
+    repeated ShieldSyncInfo shieldSyncInfos = 8;
+    //
+    optional double moveSpeed = 9;
+    //
+    optional string specialName = 10;
+    //
+    optional int64 campId = 11;
+}

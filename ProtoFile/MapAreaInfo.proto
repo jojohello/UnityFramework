@@ -1,0 +1,36 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoMapAreaInfo";
+option optimize_for = SPEED;
+
+import "MapLifeRoute.proto";
+import "MonsterMapLife.proto";
+import "PetMapLife.proto";
+import "MercenaryMapLife.proto";
+import "PlayerMapLife.proto";
+import "NpcMapLife.proto";
+
+//地图的区域信息
+message MapAreaInfo{
+    //msgId = 706;
+    //地图id
+    optional int32 mapId = 1;
+    //服务器当前时间
+    optional int64 currentTime = 2;
+    //移除的对象,人物怪物佣兵，灵兽,npc
+    repeated int64 removeLifes = 3;
+    //新增玩家
+    repeated PlayerMapLife newRoles = 4;
+    //新增怪物
+    repeated MonsterMapLife newMonsters = 5;
+    //npc
+    repeated NpcMapLife newNpcs = 6;
+    //新增佣兵
+    repeated MercenaryMapLife newMercenaries = 7;
+    //新增灵兽
+    repeated PetMapLife newPets = 8;
+    //新增玩家镜像
+    repeated PlayerMapLife newPlayerImage = 9;
+    //路径改变
+    repeated MapLifeRoute mapLifeRoutes = 10;
+}

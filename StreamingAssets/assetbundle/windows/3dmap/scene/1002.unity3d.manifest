@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 4106947035
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a100e2cd76eba4748daaf204b0fde52b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dc4937895a940e116f055faa9abfe0ca
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7fa80e7116296f4eb4f49ec1544ee22, type: 3}
+- Class: 157
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/1002/Scene/1002.unity
+Dependencies: []

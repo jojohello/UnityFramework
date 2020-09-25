@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 922113673
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e7459a6e8e1f52a11dd3a4548a01be74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/UI/FguiRes/LoginPanel_fui.bytes
+Dependencies: []

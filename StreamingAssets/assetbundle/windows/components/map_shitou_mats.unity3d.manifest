@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1170417677
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98f409e478cdc8aaf8c3d4a0dc65e23f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/map_7012_jz_01_01.mat
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/map_7005_ld_01_01.mat
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/tex_1002_st_01.mat
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/map_7005_gs_01_01.mat
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/map_1022_sq_01_03.mat
+- Assets/_Resource/3Dmap/components/map_shitou/Materials/tex_1022_xc_02.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

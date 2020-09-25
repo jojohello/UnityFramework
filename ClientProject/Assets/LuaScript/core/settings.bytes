@@ -1,0 +1,10 @@
+-- Auto generated from C#, don't modify it manually.
+local DefManager = {
+
+	test = {
+		[1] = {id=1,inttest=1,stringtest=[[测试文本1]],testDic=[[key1;1|key2;2]],testList=[[value1|value2]],testbool=true,testDictF={["key1"]=1,["key2"]=2,},testListF={[[value1]],[[value2]],}},
+		[2] = {id=2,inttest=2,stringtest=[[测试文本2]],testDic=[[key11;1|key22;2]],testList=[[value11|value22]],testbool=false,testDictF={["key11"]=1,["key22"]=2,},testListF={[[value11]],[[value22]],}},
+	},
+}
+
+return DefManager

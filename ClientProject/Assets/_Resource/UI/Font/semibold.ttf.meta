@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e6628680e19e5cf41b0f78aa1eefe92c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: manlingGBK
+  fontNames:
+  - manlingGBK
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: dc44fb967926518428288abd9b4a3791, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: gui/font/semibold.unity3d
+  assetBundleVariant: 

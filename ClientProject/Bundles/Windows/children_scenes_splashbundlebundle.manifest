@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2897598784
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89d583f11fa1dd87334ccc89c94f8543
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc7ddd9dd3a10cfd579aad12740a3e0b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/XAsset/Demo/UI/Animations/SplashScreen.controller
+- Assets/XAsset/Demo/UI/Animations/SplashScreen.anim
+- Assets/XAsset/AppIcon.png
+Dependencies: []

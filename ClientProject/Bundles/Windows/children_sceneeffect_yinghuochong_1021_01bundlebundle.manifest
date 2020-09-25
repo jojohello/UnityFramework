@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3441702586
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d6d7b165799acd759581defc6460df3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/Textures/05glow/ML_glow_08.png
+- Assets/_Resource/Effect/Textures/05glow/Materials/ML_glow_08_add.mat
+Dependencies:
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/shadersbundle

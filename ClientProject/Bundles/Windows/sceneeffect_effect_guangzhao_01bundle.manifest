@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3487640901
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2a5be435d90248992bd7a179bd3cca0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1961d40db010cd7d87aa943b12b9d05d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/SceneEffect/Effect_guangzhao_01.prefab
+Dependencies:
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/children_sceneeffect_effect_guangzhao_01bundlebundle

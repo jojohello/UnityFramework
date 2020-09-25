@@ -1,0 +1,26 @@
+---@class CS.FairyGUI.IKeyboard
+CS.FairyGUI.IKeyboard = {}
+
+---@property readonly CS.FairyGUI.IKeyboard.done : CS.System.Boolean
+CS.FairyGUI.IKeyboard.done = nil
+
+---@property readonly CS.FairyGUI.IKeyboard.supportsCaret : CS.System.Boolean
+CS.FairyGUI.IKeyboard.supportsCaret = nil
+
+---@return CS.System.String
+function CS.FairyGUI.IKeyboard:GetInput()
+end
+
+---@param text : CS.System.String
+---@param autocorrection : CS.System.Boolean
+---@param multiline : CS.System.Boolean
+---@param secure : CS.System.Boolean
+---@param alert : CS.System.Boolean
+---@param textPlaceholder : CS.System.String
+---@param keyboardType : CS.System.Int32
+---@param hideInput : CS.System.Boolean
+function CS.FairyGUI.IKeyboard:Open(text, autocorrection, multiline, secure, alert, textPlaceholder, keyboardType, hideInput)
+end
+
+function CS.FairyGUI.IKeyboard:Close()
+end

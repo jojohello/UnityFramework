@@ -1,0 +1,21 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoCSMapChangeRoute";
+option optimize_for = SPEED;
+
+import "PrecisePosition.proto";
+
+//请求地图路径改变
+message CSMapChangeRoute{
+    //msgId = 750;
+    //路径列表
+    repeated PrecisePosition routes = 2;
+    //生物类型1玩家2怪物4佣兵5宠物6镜像
+    optional int32 lifeType = 3;
+    //1正常移动2停止路径3瞬移坐标
+    optional int32 moveType = 4;
+    //地图id
+    optional int32 mapId = 5;
+    //开始移动时间
+    optional int64 startMoveTime = 6;
+}

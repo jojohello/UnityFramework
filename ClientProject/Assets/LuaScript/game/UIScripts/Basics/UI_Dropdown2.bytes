@@ -1,0 +1,42 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_Dropdown2 : fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_list GList
+local UI_Dropdown2 = class("UI_Dropdown2");
+
+UI_Dropdown2.URL = "ui://9leh0eyfnil";
+
+function UI_Dropdown2:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","Dropdown2");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_Dropdown2:OnConstruct()
+	self.m_list = self.__ui:GetChild("list");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_Dropdown2:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_Dropdown2onInit")
+    self.contentPane = UIPackage.CreateObject("Basics","Dropdown2");
+end
+
+function UI_Dropdown2:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_Dropdown2Shown")
+end
+
+function UI_Dropdown2:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_Dropdown2Hide")
+end
+
+function UI_Dropdown2:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_Dropdown2:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_Dropdown2;

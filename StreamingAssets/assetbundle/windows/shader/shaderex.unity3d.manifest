@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 1508641791
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be0d63cab624fc84e8826f3bfeb7b64e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a3aa08ef338b3e92be55e899b875b94a
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 200
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Shader/NGUI/Text BMFont.shader
+- Assets/_Resource/Shader/NewShaderVariants.shadervariants
+- Assets/_Resource/Shader/NGUI/Text 2.shader
+- Assets/_Resource/Shader/NGUI/Premultiplied Colored 1.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 2.shader
+- Assets/_Resource/Shader/NGUI/Text BMFont 3.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 1_Gray.shader
+- Assets/_Resource/Shader/NGUI/Premultiplied Colored 2.shader
+- Assets/_Resource/Shader/Scene/wind2_Terrain_2Texture.shader
+- Assets/_Resource/Shader/NGUI/Text (TextureClip).shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 2_Gray.shader
+- Assets/_Resource/Shader/NGUI/Text BMFont 2.shader
+- Assets/_Resource/Shader/NGUI/Text.shader
+- Assets/_Resource/Shader/NGUI/ModelText.shader
+- Assets/_Resource/Shader/NGUI/Font.shader
+- Assets/_Resource/Shader/NGUI/Premultiplied Colored.shader
+- Assets/_Resource/Shader/NGUI/Transparent Packed.shader
+- Assets/_Resource/Shader/Scene/wind2_SceneEntry.shader
+- Assets/_Resource/Shader/Scene/wind2_Terrain_4Texture.shader
+- Assets/_Resource/Shader/NGUI/Transparent Packed 3.shader
+- Assets/_Resource/Shader/Scene/wind2_Diffuse.shader
+- Assets/_Resource/Shader/Scene/wind2_Character_Wind.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored (Packed) (TextureClip).shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 3.shader
+- Assets/_Resource/Shader/NGUI/CameraRender.shader
+- Assets/_Resource/Shader/Scene/wind2_Character_Water.shader
+- Assets/_Resource/Shader/Scene/wind2_Cutout.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored_Gray.shader
+- Assets/_Resource/Shader/NGUI/Transparent Packed 1.shader
+- Assets/_Resource/Shader/NGUI/Text shadow 2.shader
+- Assets/_Resource/Shader/Scene/wind2_TextureSwitchFog.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored (TextureClip).shader
+- Assets/_Resource/Shader/Particle/ParticlesAdditive.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 1.shader
+- Assets/_Resource/Shader/Scene/Standard.shader
+- Assets/_Resource/Shader/Scene/wind2_Sea.shader
+- Assets/_Resource/Shader/NGUI/Text BMFont (TextureClip).shader
+- Assets/_Resource/Shader/NGUI/Text 1.shader
+- Assets/_Resource/Shader/NGUI/Premultiplied Colored 3.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored 3_Gray.shader
+- Assets/_Resource/Shader/Scene/wind2_AlphaTexture.shader
+- Assets/_Resource/Shader/NGUI/Text 3.shader
+- Assets/_Resource/Shader/NGUI/Text shadow.shader
+- Assets/_Resource/Shader/NGUI/Text BMFont Outline.shader
+- Assets/_Resource/Shader/NGUI/Transparent Colored.shader
+- Assets/_Resource/Shader/NGUI/Premultiplied Colored (TextureClip).shader
+- Assets/_Resource/Shader/NGUI/Transparent Packed 2.shader
+- Assets/_Resource/Shader/NGUI/Text BMFont 1.shader
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2135048813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aba07335492849c5494b07be3c14ae9e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/1002/Scenedata/1002_effect_info.bytes
+- Assets/_Resource/3Dmap/1002/Scenedata/1002_block.bytes
+- Assets/_Resource/3Dmap/1002/Scenedata/1002_fbx_mat_info.bytes
+- Assets/_Resource/3Dmap/1002/Scenedata/1002_info.bytes
+Dependencies: []

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2725034862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d39f98051b523a5a069c592480d8c784
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0bb4c37c915d5352389eeb93c1a3b27a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/UI/Font/semibold.ttf
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/gui/font/hanyi_4.unity3d

@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 2841106641
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scenes_splashbundle
+      Dependencies:
+        Dependency_0: children_scenes_splashbundlebundle
+    Info_1:
+      Name: scenes_titlebundle
+      Dependencies:
+        Dependency_0: children_scenes_titlebundlebundle
+    Info_2:
+      Name: sceneeffect_yinghuochong_1021_01bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_yinghuochong_1021_01bundlebundle
+    Info_3:
+      Name: sceneeffect_effect_guangzhao_01bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_effect_guangzhao_01bundlebundle
+    Info_4:
+      Name: sceneeffect_effect_wu_06bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_effect_guangzhao_01bundlebundle
+        Dependency_1: children_sceneeffect_effect_wu_06bundlebundle
+    Info_5:
+      Name: sceneeffect_effect_wu_02bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_effect_guangzhao_01bundlebundle
+        Dependency_1: children_sceneeffect_effect_wu_06bundlebundle
+    Info_6:
+      Name: sceneeffect_yinghuochongbundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_yinghuochong_1021_01bundlebundle
+    Info_7:
+      Name: sceneeffect_effect_wu_01bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_effect_guangzhao_01bundlebundle
+        Dependency_1: children_sceneeffect_effect_wu_06bundlebundle
+    Info_8:
+      Name: sceneeffect_effect_wu_05bundle
+      Dependencies:
+        Dependency_0: children_sceneeffect_effect_guangzhao_01bundlebundle
+        Dependency_1: children_sceneeffect_effect_wu_06bundlebundle
+    Info_9:
+      Name: shadersbundle
+      Dependencies: {}
+    Info_10:
+      Name: fguires_loginpanel_fuibundle
+      Dependencies: {}
+    Info_11:
+      Name: fguires_loginpanel_atlas0bundle
+      Dependencies: {}
+    Info_12:
+      Name: fguires_basics_gojg7ubundle
+      Dependencies: {}
+    Info_13:
+      Name: fguires_basics_fuibundle
+      Dependencies: {}
+    Info_14:
+      Name: fguires_basics_o4lt7wbundle
+      Dependencies: {}
+    Info_15:
+      Name: fguires_basics_atlas0bundle
+      Dependencies: {}
+    Info_16:
+      Name: children_scenes_splashbundlebundle
+      Dependencies: {}
+    Info_17:
+      Name: children_scenes_titlebundlebundle
+      Dependencies: {}
+    Info_18:
+      Name: children_sceneeffect_yinghuochong_1021_01bundlebundle
+      Dependencies:
+        Dependency_0: shadersbundle
+    Info_19:
+      Name: children_sceneeffect_effect_guangzhao_01bundlebundle
+      Dependencies:
+        Dependency_0: shadersbundle
+    Info_20:
+      Name: children_sceneeffect_effect_wu_06bundlebundle
+      Dependencies: {}

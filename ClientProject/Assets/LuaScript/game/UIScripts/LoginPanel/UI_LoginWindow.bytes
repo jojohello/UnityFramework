@@ -1,0 +1,41 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+local UI_LoginWindow=fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_bg1 GGraph
+---@field public m_accountInput GTextInput
+---@field public m_bg2 GGraph
+---@field public m_passwordInput GTextInput
+---@field public m_loginBtn GButton
+--local UI_LoginWindow = class("UI_LoginWindow");
+
+UI_LoginWindow.URL = "ui://1915koifnil";
+
+
+function UI_LoginWindow:OnConstruct()
+	self.m_bg1 = self.__ui:GetChild("bg1");
+	self.m_accountInput = self.__ui:GetChild("accountInput");
+	self.m_bg2 = self.__ui:GetChild("bg2");
+	self.m_passwordInput = self.__ui:GetChild("passwordInput");
+	self.m_loginBtn = self.__ui:GetChild("loginBtn");
+end
+
+function UI_LoginWindow:BindEvent()
+	self.m_loginBtn.onClick:Add(function() end)
+end
+
+function UI_LoginWindow:OnInit(contentPane)
+    self.contentPane = contentPane
+	self:OnConstruct();
+	self:BindEvent();
+end
+
+function UI_LoginWindow:OnShown()
+    
+end
+
+function UI_LoginWindow:OnHide()
+    
+end
+
+return UI_LoginWindow;

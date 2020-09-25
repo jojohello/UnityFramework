@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3245899026
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3ce424ce0492900d211d46865492012e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0ff95b15119dbeb443c1ea7822301e85
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/XAsset/Demo/UI/Sprites/Title/Title2_bg.png
+- Assets/XAsset/Demo/UI/Sprites/Title/Btn_User_n.png
+- Assets/XAsset/Demo/UI/Sprites/Title/Btn_User_h.png
+- Assets/XAsset/Demo/UI/Sprites/Title/Progress1.png
+- Assets/XAsset/Demo/UI/Animations/TOUCHTOSTART.anim
+- Assets/XAsset/Demo/UI/Sprites/Backgrounds/bg_LoadingPage.png
+- Assets/XAsset/Demo/UI/Sprites/Title/bg_Progress.png
+- Assets/XAsset/Demo/UI/Animations/START.controller
+- Assets/XAsset/Demo/UI/Sprites/Title/Progress2.png
+Dependencies: []

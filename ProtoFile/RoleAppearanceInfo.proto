@@ -1,0 +1,37 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoRoleAppearanceInfo";
+option optimize_for = SPEED;
+
+import "RoleFashionTemple.proto";
+
+//角色列表中的外观信息
+message RoleAppearanceInfo{
+    //msgId = 211;
+    //角色id
+    optional int64 roleId = 1;
+    //瞳色id
+    optional int32 eyeColorId = 3;
+    //头发id
+    optional int32 hairColorId = 4;
+    //头发模型id
+    optional int32 hairId = 5;
+    //职业
+    optional int32 vocation = 7;
+    //名字
+    optional string name = 8;
+    //角色等级
+    optional int32 level = 9;
+    //性别
+    optional int32 sex = 10;
+    //眼睛id
+    optional int32 eyeId = 11;
+    //语音id
+    optional int32 voiceId = 12;
+    //头像id
+    optional int32 headIcon = 13;
+    //装备外观显示id类型:ID;...
+    optional string equipSuitId = 14;
+    //玩家时装信息
+    optional RoleFashionTemple roleFashionTemple = 15;
+}

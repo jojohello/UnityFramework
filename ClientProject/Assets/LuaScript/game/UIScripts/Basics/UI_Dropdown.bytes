@@ -1,0 +1,42 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_Dropdown : fgui.window_class(WindowBase)
+---@field public __ui GComboBox
+---@field public m_button GButton
+local UI_Dropdown = class("UI_Dropdown");
+
+UI_Dropdown.URL = "ui://9leh0eyfnil";
+
+function UI_Dropdown:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","Dropdown");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_Dropdown:OnConstruct()
+	self.m_button = self.__ui:GetChild("button");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_Dropdown:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_DropdownonInit")
+    self.contentPane = UIPackage.CreateObject("Basics","Dropdown");
+end
+
+function UI_Dropdown:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_DropdownShown")
+end
+
+function UI_Dropdown:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_DropdownHide")
+end
+
+function UI_Dropdown:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_Dropdown:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_Dropdown;

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1972868925
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59ed2c57baf722177b9a36b5040ceb36
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/Textures/10trail/Materials/ML_trail_029.mat
+- Assets/_Resource/Effect/Mesh/HSL_pengshe_01_rd_tyh.FBX
+- Assets/_Resource/Effect/Textures/10trail/ML_trail_029.png
+Dependencies:
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/shadersbundle

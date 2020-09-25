@@ -1,0 +1,30 @@
+local $className=fgui.window_class(WindowBase)
+$classFieldAnnotation
+--local $className = class("$className");
+
+$className.URL = $urlValue;
+
+
+function $className:OnConstruct()
+$classFieldInstantiation
+end
+
+function $className:BindEvent()
+$bindEventInstantiation
+end
+
+function $className:OnInit(contentPane)
+    self.contentPane = contentPane
+	self:OnConstruct();
+	self:BindEvent();
+end
+
+function $className:OnShown()
+    
+end
+
+function $className:OnHide()
+    
+end
+
+return $className;

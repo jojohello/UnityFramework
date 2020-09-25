@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3023225693
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33a6340468c46176bb6536b61772a82b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_1002_lg02.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_mx03.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_cd01.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_mt01.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_dt01.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_mx01.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_mt03.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_7002_ht_04_01.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_1022_mt02.mat
+- Assets/_Resource/3Dmap/components/map_xiaowujian01/Materials/tex_bd.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

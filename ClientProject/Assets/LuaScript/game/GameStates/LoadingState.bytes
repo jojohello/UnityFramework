@@ -1,0 +1,4 @@
+local BaseState = require("StateMachine/BaseState")
+local LoadingState = class("LoadingState", BaseState)
+
+return LoadingState

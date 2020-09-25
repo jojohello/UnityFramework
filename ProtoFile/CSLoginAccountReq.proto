@@ -1,0 +1,14 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoCSLoginAccountReq";
+option optimize_for = SPEED;
+
+
+//登陆账号请求角色列表
+message CSLoginAccountReq{
+    //msgId = 12;
+    //账号
+    optional string account = 1;
+    //服务器id
+    optional int32 serverId = 2;
+}

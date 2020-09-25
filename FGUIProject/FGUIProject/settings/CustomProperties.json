@@ -1,0 +1,6 @@
+{
+  "key_gen_lua": "true",
+  "key_lua_file_extension_name": "bytes",
+  "key_lua_path_root": "UIScripts/",
+  "key_wrapper_namespace": ""
+}

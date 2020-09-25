@@ -1,0 +1,9 @@
+require("UIScripts.FairyGUI")
+require("UIScripts._Core.LuaUIManager")
+
+UIManager.GetInstance():ShowWindow("LoginPanel","LoginWindow");
+--UIManager.GetInstance():CloseWindow("LoginWindow")
+--UIManager.GetInstance():ShowWindow("Basics","WindowA");
+--UIPackage.AddPackage("Assets/_Resource/UI/FguiRes/LoginPanel");
+--local loginPanel = require("UIScripts.LoginPanel.UI_LoginWindow").New()
+--loginPanel:Show()

@@ -1,0 +1,12 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoRoleFashionTemple";
+option optimize_for = SPEED;
+
+
+//角色时装数据
+message RoleFashionTemple{
+    //msgId = 869;
+    //
+    repeated int32 fashions = 1;
+}

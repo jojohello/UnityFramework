@@ -1,0 +1,15 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoRoleDataInfoDto";
+option optimize_for = SPEED;
+
+import "RoleInfoDto.proto";
+
+//登陆角色信息
+message RoleDataInfoDto{
+    //msgId = 107;
+    //
+    optional int32 acrossServerId = 1;
+    //null
+    optional RoleInfoDto parentRoleDataInfoDto = 2;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1915koif">
+  <resources>
+    <component id="kehf1" name="LoginWindow.xml" path="/Window/" exported="true"/>
+    <image id="kehf2" name="b6_png.png" path="/Img/" scale="9grid" scale9grid="21,6,42,12"/>
+    <image id="kehf3" name="b5_png.png" path="/Img/" scale="9grid" scale9grid="21,6,42,12"/>
+    <component id="9zaf5" name="LoginBtn.xml" path="/Com/"/>
+    <component id="yr7y6" name="Button1.xml" path="/Com/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3860166919
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c179e8e29125833389e9abb985002980
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/Textures/09smoke/Materials/ML_smoke_013_add.mat
+- Assets/_Resource/Effect/Textures/09smoke/ML_smoke_013.png
+Dependencies: []

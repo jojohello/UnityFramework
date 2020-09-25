@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: dc44fb967926518428288abd9b4a3791
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: manlingGBK
+  fontNames:
+  - manlingGBK
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e6628680e19e5cf41b0f78aa1eefe92c, type: 3}
+  - {fileID: 12800000, guid: 96fac9bbc8a56f34784139b0ca7aa6ac, type: 3}
+  - {fileID: 12800000, guid: 422509fca5582da4da9c0a5a36d99281, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: gui/font/hanyi_4.unity3d
+  assetBundleVariant: 

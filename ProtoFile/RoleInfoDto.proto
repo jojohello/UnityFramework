@@ -1,0 +1,45 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoRoleInfoDto";
+option optimize_for = SPEED;
+
+import "RoleFashionTemple.proto";
+
+//角色信息
+message RoleInfoDto{
+    //msgId = 108;
+    //序号
+    optional int64 id = 1;
+    //名字
+    optional string name = 2;
+    //vip等级
+    optional int32 vipLevel = 3;
+    //头像
+    optional int32 icon = 4;
+    //性别
+    optional int32 sex = 5;
+    //角色的userId
+    optional int64 userId = 6;
+    //角色等级
+    optional int32 level = 7;
+    //角色创建时间-平台需要
+    optional int64 creatTime = 8;
+    //经验
+    optional int64 exp = 9;
+    //瞳色id
+    optional int32 eyeColorId = 11;
+    //头发id
+    optional int32 hairColorId = 12;
+    //头发模型id
+    optional int32 hairId = 13;
+    //
+    optional int32 vocation = 14;
+    //眼睛id
+    optional int32 eyeId = 15;
+    //语音id
+    optional int32 voiceId = 16;
+    //装备外观显示id类型:ID;...
+    optional string equipSuitId = 17;
+    //玩家时装信息
+    optional RoleFashionTemple roleFashionTemple = 18;
+}

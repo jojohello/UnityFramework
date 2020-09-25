@@ -1,0 +1,19 @@
+local StateMachine = require("StateMachine/StateMachine")
+local GameStatesManager = StateMachine.new()
+
+GameStateType =
+{
+    Loading = 1,
+    Playing = 2,
+}
+--GameStateType = makeEnum(GameStateType)
+
+function GameStatesManager:Init()
+    self:RegristerState(GameStateType.Loading, require("GameStates/LoadingState").new())
+    self:RegristerState(GameStateType.Playing, require("GameStates/PlayingState").new())
+	
+	self:SetState(GameStateType.Loading)
+end
+
+GameStatesManager:Init()
+return GameStatesManager

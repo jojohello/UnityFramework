@@ -1,0 +1,33 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+local UI_Main=fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_mailList GList
+--local UI_Main = class("UI_Main");
+
+UI_Main.URL = "ui://jou4kj6pnil";
+
+
+function UI_Main:OnConstruct()
+	self.m_mailList = self.__ui:GetChild("mailList");
+end
+
+function UI_Main:BindEvent()
+
+end
+
+function UI_Main:OnInit(contentPane)
+    self.contentPane = contentPane
+	self:OnConstruct();
+	self:BindEvent();
+end
+
+function UI_Main:OnShown()
+    
+end
+
+function UI_Main:OnHide()
+    
+end
+
+return UI_Main;

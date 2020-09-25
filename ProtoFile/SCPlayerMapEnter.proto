@@ -1,0 +1,15 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoSCPlayerMapEnter";
+option optimize_for = SPEED;
+
+import "MapAreaInfo.proto";
+
+//玩家地图的进入
+message SCPlayerMapEnter{
+    //msgId = 723;
+    //
+    optional MapAreaInfo parentSCPlayerMapEnter = 1;
+    //分线
+    optional int32 mapLine = 2;
+}

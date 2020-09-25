@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3935368443
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: script
+      Dependencies: {}
+    Info_1:
+      Name: assets/data/object1.prefab
+      Dependencies:
+        Dependency_0: assets/rawdata/material/m1.mat
+    Info_2:
+      Name: assets/rawdata/material/m1.mat
+      Dependencies: {}
+    Info_3:
+      Name: assets/data/folderfor2/object2.prefab
+      Dependencies:
+        Dependency_0: assets/rawdata/material/m1.mat

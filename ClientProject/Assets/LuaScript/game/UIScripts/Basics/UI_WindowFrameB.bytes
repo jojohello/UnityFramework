@@ -1,0 +1,44 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_WindowFrameB : fgui.window_class(WindowBase)
+---@field public __ui GLabel
+---@field public m_dragArea GGraph
+---@field public m_closeButton GButton
+local UI_WindowFrameB = class("UI_WindowFrameB");
+
+UI_WindowFrameB.URL = "ui://9leh0eyfnil";
+
+function UI_WindowFrameB:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","WindowFrameB");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_WindowFrameB:OnConstruct()
+	self.m_dragArea = self.__ui:GetChild("dragArea");
+	self.m_closeButton = self.__ui:GetChild("closeButton");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_WindowFrameB:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowFrameBonInit")
+    self.contentPane = UIPackage.CreateObject("Basics","WindowFrameB");
+end
+
+function UI_WindowFrameB:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowFrameBShown")
+end
+
+function UI_WindowFrameB:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowFrameBHide")
+end
+
+function UI_WindowFrameB:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_WindowFrameB:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_WindowFrameB;

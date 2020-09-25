@@ -1,0 +1,18 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoMonsterAnim";
+option optimize_for = SPEED;
+
+
+//怪物动画
+message MonsterAnim{
+    //msgId = 865;
+    //开始时间
+    optional int64 startTime = 1;
+    //动画
+    optional string anim = 2;
+    //怪物动画循环
+    optional bool animCycle = 3;
+    //播放速度
+    optional int32 speed = 4;
+}

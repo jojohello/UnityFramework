@@ -1,0 +1,26 @@
+Global_Window_Dict = {}
+
+function OnWindowInit(packageName,winName,obj)
+	if Global_Window_Dict[winName] == nil then
+		local comClass = require(string.format("UIScripts.%s.UI_%s",packageName,winName))
+		if comClass then
+			Global_Window_Dict[winName] = comClass
+		else
+			UnityEngine.Debug.LogError(string.format("没有该fgui组件的lua脚本 - UI_%s",winName))
+			return
+		end
+	end
+
+	local win = Global_Window_Dict[winName]
+	win:OnInit(obj)
+end
+
+function OnWindowShown(windowName)
+	local win = Global_Window_Dict[windowName]
+	win:OnShown()
+end
+
+function OnWindowHide(windowName)
+	local win = Global_Window_Dict[windowName]
+	win:OnHide()
+end

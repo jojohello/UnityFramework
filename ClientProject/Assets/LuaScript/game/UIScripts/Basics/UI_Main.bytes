@@ -1,0 +1,88 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_Main : fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_c1 Controller
+---@field public m_container GComponent
+---@field public m_btn_Back GButton
+---@field public m_btn_Button GButton
+---@field public m_btn_Image GButton
+---@field public m_btn_Graph GButton
+---@field public m_btn_MovieClip GButton
+---@field public m_btn_Depth GButton
+---@field public m_btn_Loader GButton
+---@field public m_btn_List GButton
+---@field public m_btn_ProgressBar GButton
+---@field public m_btn_Slider GButton
+---@field public m_btn_ComboBox GButton
+---@field public m_btn_Clip&Scroll GButton
+---@field public m_btn_Controller GButton
+---@field public m_btn_Relation GButton
+---@field public m_btn_Label GButton
+---@field public m_btn_Popup GButton
+---@field public m_btn_Window GButton
+---@field public m_btn_Drag&Drop GButton
+---@field public m_btn_Component GButton
+---@field public m_btn_Grid GButton
+---@field public m_btn_Text GButton
+---@field public m_btns GGroup
+local UI_Main = class("UI_Main");
+
+UI_Main.URL = "ui://9leh0eyfnil";
+
+function UI_Main:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","Main");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_Main:OnConstruct()
+	self.m_c1 = self.__ui:GetController("c1");
+	self.m_container = self.__ui:GetChild("container");
+	self.m_btn_Back = self.__ui:GetChild("btn_Back");
+	self.m_btn_Button = self.__ui:GetChild("btn_Button");
+	self.m_btn_Image = self.__ui:GetChild("btn_Image");
+	self.m_btn_Graph = self.__ui:GetChild("btn_Graph");
+	self.m_btn_MovieClip = self.__ui:GetChild("btn_MovieClip");
+	self.m_btn_Depth = self.__ui:GetChild("btn_Depth");
+	self.m_btn_Loader = self.__ui:GetChild("btn_Loader");
+	self.m_btn_List = self.__ui:GetChild("btn_List");
+	self.m_btn_ProgressBar = self.__ui:GetChild("btn_ProgressBar");
+	self.m_btn_Slider = self.__ui:GetChild("btn_Slider");
+	self.m_btn_ComboBox = self.__ui:GetChild("btn_ComboBox");
+	self.m_btn_Clip&Scroll = self.__ui:GetChild("btn_Clip&Scroll");
+	self.m_btn_Controller = self.__ui:GetChild("btn_Controller");
+	self.m_btn_Relation = self.__ui:GetChild("btn_Relation");
+	self.m_btn_Label = self.__ui:GetChild("btn_Label");
+	self.m_btn_Popup = self.__ui:GetChild("btn_Popup");
+	self.m_btn_Window = self.__ui:GetChild("btn_Window");
+	self.m_btn_Drag&Drop = self.__ui:GetChild("btn_Drag&Drop");
+	self.m_btn_Component = self.__ui:GetChild("btn_Component");
+	self.m_btn_Grid = self.__ui:GetChild("btn_Grid");
+	self.m_btn_Text = self.__ui:GetChild("btn_Text");
+	self.m_btns = self.__ui:GetChild("btns");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_Main:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_MainonInit")
+    self.contentPane = UIPackage.CreateObject("Basics","Main");
+end
+
+function UI_Main:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_MainShown")
+end
+
+function UI_Main:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_MainHide")
+end
+
+function UI_Main:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_Main:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_Main;

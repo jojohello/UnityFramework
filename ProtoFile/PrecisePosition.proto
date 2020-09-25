@@ -1,0 +1,14 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoPrecisePosition";
+option optimize_for = SPEED;
+
+
+//精准的位置
+message PrecisePosition{
+    //msgId = 233;
+    //
+    optional float x = 1;
+    //
+    optional float y = 2;
+}

@@ -1,0 +1,74 @@
+ver:
+1.1.3
+activeVariants:
+
+dirs:
+Assets/XAsset/Demo/Scenes
+Assets/_Resource/Effect/SceneEffect
+Assets/_Resource/Shader/FGUI
+Assets/_Resource/Shader
+Assets/_Resource/Shader/Scene
+Assets/_Resource/Shader/FGUI/AddOn
+Assets/_Resource/Shader/Particle
+Assets/_Resource/UI/FguiRes
+assets:
+name=Splash.unity, bundle=18, dir=0
+name=Title.unity, bundle=19, dir=0
+name=yinghuochong_1021_01.prefab, bundle=16, dir=1
+name=Effect_guangzhao_01.prefab, bundle=11, dir=1
+name=Effect_wu_06.prefab, bundle=15, dir=1
+name=Effect_wu_02.prefab, bundle=13, dir=1
+name=yinghuochong.prefab, bundle=17, dir=1
+name=Effect_wu_01.prefab, bundle=12, dir=1
+name=Effect_wu_05.prefab, bundle=14, dir=1
+name=FairyGUI-Image.shader, bundle=20, dir=2
+name=NewShaderVariants.shadervariants, bundle=20, dir=3
+name=wind2_SceneEntry.shader, bundle=20, dir=4
+name=wind2_Cutout.shader, bundle=20, dir=4
+name=wind2_Terrain_2Texture.shader, bundle=20, dir=4
+name=wind2_AlphaTexture.shader, bundle=20, dir=4
+name=wind2_Sea.shader, bundle=20, dir=4
+name=FairyGUI-BlurFilter.shader, bundle=20, dir=5
+name=wind2_TextureSwitchFog.shader, bundle=20, dir=4
+name=ParticlesAdditive.shader, bundle=20, dir=6
+name=wind2_Diffuse.shader, bundle=20, dir=4
+name=wind2_Terrain_4Texture.shader, bundle=20, dir=4
+name=wind2_Character_Wind.shader, bundle=20, dir=4
+name=FairyGUI-Text.shader, bundle=20, dir=2
+name=wind2_Character_Water.shader, bundle=20, dir=4
+name=Standard.shader, bundle=20, dir=4
+name=FairyGUI-BMFont.shader, bundle=20, dir=2
+name=LoginPanel_fui.bytes, bundle=10, dir=7
+name=LoginPanel_atlas0.png, bundle=9, dir=7
+name=Basics_gojg7u.wav, bundle=7, dir=7
+name=Basics_fui.bytes, bundle=6, dir=7
+name=Basics_o4lt7w.wav, bundle=8, dir=7
+name=Basics_atlas0.png, bundle=5, dir=7
+bundles:
+id=0, name=children_sceneeffect_effect_guangzhao_01bundlebundle, hash=59ed2c57baf722177b9a36b5040ceb36, crc=7af7b78c, children=20
+id=1, name=children_sceneeffect_effect_wu_06bundlebundle, hash=c179e8e29125833389e9abb985002980, crc=35118d3a, children=
+id=2, name=children_sceneeffect_yinghuochong_1021_01bundlebundle, hash=d6d7b165799acd759581defc6460df3f, crc=3486e36a, children=20
+id=3, name=children_scenes_splashbundlebundle, hash=89d583f11fa1dd87334ccc89c94f8543, crc=3c154b1c, children=
+id=4, name=children_scenes_titlebundlebundle, hash=3ce424ce0492900d211d46865492012e, crc=07e7e90b, children=
+id=5, name=fguires_basics_atlas0bundle, hash=a458a7495220dbc9c75bfa2da0f3e25e, crc=58ce6fa1, children=
+id=6, name=fguires_basics_fuibundle, hash=387bdffafc8eaa45a32edc8ca190851f, crc=2c712c20, children=
+id=7, name=fguires_basics_gojg7ubundle, hash=113068f33d314c7bf7c22103c811c54e, crc=762d34ab, children=
+id=8, name=fguires_basics_o4lt7wbundle, hash=a7b632f274d2f56770c10d64013172c7, crc=80af6d26, children=
+id=9, name=fguires_loginpanel_atlas0bundle, hash=0dda8836e2c7c5ddc524ad5cda225375, crc=faa7c87b, children=
+id=10, name=fguires_loginpanel_fuibundle, hash=e7459a6e8e1f52a11dd3a4548a01be74, crc=8effc976, children=
+id=11, name=sceneeffect_effect_guangzhao_01bundle, hash=2a5be435d90248992bd7a179bd3cca0c, crc=b7ae0de9, children=0,20
+id=12, name=sceneeffect_effect_wu_01bundle, hash=b7b62027383f2eada1dccc09ec2596e0, crc=6b5ed8cc, children=0,1,20
+id=13, name=sceneeffect_effect_wu_02bundle, hash=2876beebaedd725191a643be9d03ee26, crc=8aa61ab3, children=0,1,20
+id=14, name=sceneeffect_effect_wu_05bundle, hash=45454d22aef84685ea1456c2211180da, crc=85b69612, children=0,1,20
+id=15, name=sceneeffect_effect_wu_06bundle, hash=b7a65abd615be4e1a34c3fdaab7958a0, crc=4a2bd299, children=0,1,20
+id=16, name=sceneeffect_yinghuochong_1021_01bundle, hash=652265567d22547353b056503907c456, crc=360062da, children=2,20
+id=17, name=sceneeffect_yinghuochongbundle, hash=c63396898252041f200a652088c35565, crc=0f64600a, children=2,20
+id=18, name=scenes_splashbundle, hash=a403823054011a3138fe6a7645a7b9c0, crc=237e675f, children=3
+id=19, name=scenes_titlebundle, hash=8617e4875079c14f3a86843c8efc63f6, crc=1ed69149, children=4
+id=20, name=shadersbundle, hash=77493c7eccbe1c4073f1b96a9c3ca62c, crc=e6e6a73f, children=
+patches:
+name=Splash, files=18,3
+name=Title, files=19,4,16,2,20,11,0,15,1,13,17,12,14,10,9
+name=Game, files=10,9,7,6,8,5
+patchesInBuild:
+Splash,Title

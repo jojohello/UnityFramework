@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1286144719
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 645f07c6d60e24df7a980564390100cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0bb4c37c915d5352389eeb93c1a3b27a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/UI/Font/HANYI_4.ttf
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/gui/font/semibold.unity3d

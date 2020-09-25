@@ -1,0 +1,121 @@
+<GlobalConfig CodeFontSize = "22"/>
+<BreakpointList/>
+<WatchList/>
+<ProjectUI>
+  <TreeState BaseX = "0" BaseY = "0" AlternativeItem = "LuaFolders#LuaScript#game#UIScripts#_Core">
+    <SelectedList>
+      <Selected Path = "LuaFolders#LuaScript#game#UIScripts#LoginPanel#UI_LoginWindow.bytes"/>
+    </SelectedList>
+    <ExpandedList>
+      <Expanded Path = "LuaFolders"/>
+      <Expanded Path = "LuaFolders#Apis"/>
+      <Expanded Path = "LuaFolders#LuaScript"/>
+      <Expanded Path = "LuaFolders#LuaScript#core"/>
+      <Expanded Path = "LuaFolders#LuaScript#core#StateMachine"/>
+      <Expanded Path = "LuaFolders#LuaScript#game"/>
+      <Expanded Path = "LuaFolders#LuaScript#game#UIScripts"/>
+      <Expanded Path = "LuaFolders#LuaScript#game#UIScripts#LoginPanel"/>
+      <Expanded Path = "LuaFolders#LuaScript#game#UIScripts#_Core"/>
+    </ExpandedList>
+  </TreeState>
+</ProjectUI>
+<FindAnReplaceUI
+  Pattern = "gcomp"
+  MatchCase = "false"
+  MatchWholeWord = "false"
+  UseRegEx = "false"
+  Target = ""
+  Replace = ""/>
+<MainWindow
+  X = "320"
+  Y = "160"
+  Width = "1280"
+  Height = "720"
+  Maximized = "false"
+  LastCodeFilename = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/LoginPanel/UI_LoginWindow.bytes">
+  <DockingControl>
+    <DockingNode DockingDirection = "Horizontal">
+      <DockingNode DockingDirection = "None">
+        <DockingBlock Width = "466" Height = "923" DocumentStyle = "false">
+          <DockingCard
+            Text = "Project"
+            Tag = ""
+            ActivePage = "true"
+            ActivateTime = "0"/>
+          <DockingCard
+            Text = "Outline"
+            Tag = ""
+            ActivePage = "false"
+            ActivateTime = "0"/>
+        </DockingBlock>
+      </DockingNode>
+      <DockingNode DockingDirection = "None">
+        <DockingBlock Width = "1435" Height = "923" DocumentStyle = "true">
+          <DockingCard
+            Text = "Game.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/Game.bytes"
+            ActivePage = "false"
+            ActivateTime = "19915657"
+            CaretLineIndex = "9"
+            CaretCodeCharIndex = "3"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "init.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/init.bytes"
+            ActivePage = "false"
+            ActivateTime = "19916167"
+            CaretLineIndex = "4"
+            CaretCodeCharIndex = "11"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "init.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/init.bytes"
+            ActivePage = "false"
+            ActivateTime = "20677016"
+            CaretLineIndex = "3"
+            CaretCodeCharIndex = "0"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "FairyGUI.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/FairyGUI.bytes"
+            ActivePage = "false"
+            ActivateTime = "18585057"
+            CaretLineIndex = "21"
+            CaretCodeCharIndex = "25"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "WindowBase.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/_Core/WindowBase.bytes"
+            ActivePage = "false"
+            ActivateTime = "20863380"
+            CaretLineIndex = "10"
+            CaretCodeCharIndex = "35"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "LuaUIManager.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/_Core/LuaUIManager.bytes"
+            ActivePage = "false"
+            ActivateTime = "18876444"
+            CaretLineIndex = "7"
+            CaretCodeCharIndex = "17"
+            BaseX = "0"
+            BaseY = "0"/>
+          <DockingCard
+            Text = "UI_LoginWindow.bytes"
+            Tag = "D:/Wind2/new_client/ClientProject/Assets/LuaScript/game/UIScripts/LoginPanel/UI_LoginWindow.bytes"
+            ActivePage = "true"
+            ActivateTime = "76507869"
+            CaretLineIndex = "40"
+            CaretCodeCharIndex = "22"
+            BaseX = "0"
+            BaseY = "-132"/>
+        </DockingBlock>
+      </DockingNode>
+    </DockingNode>
+  </DockingControl>
+</MainWindow>

@@ -1,0 +1,18 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoBuffStruct";
+option optimize_for = SPEED;
+
+
+//buff通讯结构
+message BuffStruct{
+    //msgId = 465;
+    //buff配置id
+    optional int32 buffConfigId = 1;
+    //buff叠加数量
+    optional int32 num = 2;
+    //buff参数值
+    optional string buffValue = 3;
+    //buff创建时间
+    optional int64 createTime = 4;
+}

@@ -1,0 +1,5 @@
+
+local BaseState = require("StateMachine/BaseState")
+local PlayingState = class("PlayingState", BaseState)
+
+return PlayingState

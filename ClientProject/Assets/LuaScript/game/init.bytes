@@ -1,0 +1,6 @@
+-- require shared folder
+require "Class"
+require "CachePool"
+
+require "Game"
+require "UIScripts.init"

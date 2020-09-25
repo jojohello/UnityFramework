@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1768506399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0dda8836e2c7c5ddc524ad5cda225375
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/UI/FguiRes/LoginPanel_atlas0.png
+Dependencies: []

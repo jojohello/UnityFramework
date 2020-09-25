@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1329453201
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9345b70139aec8d981acb942303d2355
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/map_zhiwu/Materials/map_1023_mg01.mat
+- Assets/_Resource/3Dmap/components/map_zhiwu/Materials/tex_1102_ly03.mat
+- Assets/_Resource/3Dmap/components/map_zhiwu/Materials/tex_1022_zhiwu.mat
+- Assets/_Resource/3Dmap/components/map_zhiwu/Materials/tex_tm01.mat
+- Assets/_Resource/3Dmap/components/map_zhiwu/Materials/map_1022_mg01.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

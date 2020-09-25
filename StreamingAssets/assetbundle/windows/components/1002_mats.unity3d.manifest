@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 802132851
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aaa601c3f728d3f9e8ed5a1927fd642c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_dixing_03.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_wj_09.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_tx08.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/Map_05_tx04.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_dixing_04.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/Map_05_tx05.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_wj_11.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_dixing_02.mat
+- Assets/_Resource/3Dmap/components/1002/Materials/map_1002_dixing_01.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

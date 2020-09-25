@@ -1,0 +1,51 @@
+---------------------------------------------------------------------
+-- new_client (C) CompanyName, All Rights Reserved
+-- Created by: AuthorName
+-- Date: 2020-02-19 17:27:11
+---------------------------------------------------------------------
+
+-- To edit this template in: Data/Config/Template.lua
+-- To disable this template, check off menuitem: Options-Enable Template File
+
+---@class StateMachine
+local StateMachine = class("StateMachine")
+
+function StateMachine:ctor()
+	self.states = {}
+	self.curStateType = -1
+	self.curState = nil
+end
+
+function StateMachine:RegristerState(stateType, state)
+	self.states[stateType] = state
+end
+
+function StateMachine:SetState(stateType)
+	if self.states[stateType] == nil then
+		return
+	end
+
+	if curStateType ==  stateType then
+		return
+	end
+
+	if self.curState ~= nil then
+		self.curState:Leave()
+	end
+
+	self.curStateType = stateType
+	self.curState = self.states[stateType]
+	self.curState:Enter()
+end
+
+function  StateMachine:GetCurState()
+	return self.curStateType
+end
+
+function StateMachine:Update(curTime)
+	if self.curState ~= nil then
+		self.curState:Update(curTime)
+	end
+end
+
+return StateMachine

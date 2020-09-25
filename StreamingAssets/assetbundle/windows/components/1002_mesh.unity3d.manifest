@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 769273825
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e36fb390912ebff0420b5186f07e1d14
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a1196127955aab835f9014c2a1703ec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_35b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_26.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_st_05.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_26a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_shui_02.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_41a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_22.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_29.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_21.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_30.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_42a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_27.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_39b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_38.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_st_06a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_33.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_42b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_18.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_28.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_39a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_26b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_22.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_32.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_35a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_25.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_43a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_jz_19.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_44.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_40b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_24.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_st_06b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_27.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_37.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_43b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_24.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_19.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_40a.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_34.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_29.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_st_04.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_30.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_28.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_41b.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_shui_01.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_xwj_31.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_zhiwu_36.FBX
+- Assets/_Resource/3Dmap/components/1002/Models/map_1002_wj_23.FBX
+Dependencies: []

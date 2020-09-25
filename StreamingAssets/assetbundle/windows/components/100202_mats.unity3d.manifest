@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 2642347245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ff0899f8cdd4488eaef9eed019bf6ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_muwu_09.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_mudeng_06.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wuzi_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_stj_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_fengchexiaowu_03.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_yiji_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_shuwu_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_yiji_03.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_tuiche_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_caowu_01_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wapianqiang_11.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_dmq_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_canguan_02.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_caitan_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_yijidianxiang_12.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_fengchexiaowu_004.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_banche_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_muwu_02.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_muwu_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_damen_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wuzi_02.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_yumi01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_muqiao_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_cunzhangzihjia_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_ditandangkou_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wuzi_03.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wuzi_04.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_menguan_05.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_caowu_02.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_caowu_01_03.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_muban_05.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_shuwulouti_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_mubanlu_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_wujian_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_shuikuguan_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_caodui_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_mz_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_yjpq_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_fz_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_djt_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/map_1002_caowu_01_02.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_shuijin_10.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_zhiwu_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_muwu_08.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_mianju_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_gsp_01.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_mukuai_07.mat
+- Assets/_Resource/3Dmap/components/100202/Materials/tex_1002_linquan_04.mat
+Dependencies:
+- G:/wind2/new_client/Assets/../StreamingAssets/assetbundle/windows/shader/shaderex.unity3d

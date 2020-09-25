@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <graph id="n3_kehf" name="bg1" xy="434,334" size="465,81" group="n5_kehf" type="rect"/>
+    <text id="n4_kehf" name="accountInput" xy="436,346" size="454,55" group="n5_kehf" fontSize="30" autoSize="none" text="帐号：" input="true">
+      <relation target="n3_kehf" sidePair="width-width,height-height,left-left,right-right,top-top,bottom-bottom"/>
+    </text>
+    <group id="n5_kehf" name="n5" xy="434,334" size="465,81"/>
+    <graph id="n6_kehf" name="bg2" xy="434,466" size="465,81" group="n8_kehf" type="rect"/>
+    <text id="n7_kehf" name="passwordInput" xy="436,481" size="454,55" group="n8_kehf" fontSize="30" autoSize="none" text="密码：" input="true">
+      <relation target="n6_kehf" sidePair="width-width,height-height,left-left,right-right,top-top,bottom-bottom"/>
+    </text>
+    <group id="n8_kehf" name="n8" xy="434,466" size="465,81"/>
+    <component id="n11_9zaf" name="loginBtn" src="9zaf5" fileName="Com/LoginBtn.xml" xy="524,604" size="286,67"/>
+  </displayList>
+</component>

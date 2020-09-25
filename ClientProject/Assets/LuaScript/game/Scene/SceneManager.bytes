@@ -1,0 +1,16 @@
+local SceneManager = class("SceneManager")
+
+function SceneManager:Init()
+    self.m_units = {}
+    self.m_players = {}
+    self.m_monsters = {}
+
+    self.m_projectiles = {}
+end
+
+function SceneManager:ClearDatas()
+    
+end
+
+SceneManager:Init()
+return SceneManager

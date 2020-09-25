@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2843753666
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b7b62027383f2eada1dccc09ec2596e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1961d40db010cd7d87aa943b12b9d05d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/SceneEffect/Effect_wu_01.prefab
+Dependencies:
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/children_sceneeffect_effect_guangzhao_01bundlebundle
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/children_sceneeffect_effect_wu_06bundlebundle

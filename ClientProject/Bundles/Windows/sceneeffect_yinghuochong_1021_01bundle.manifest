@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 669980764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 652265567d22547353b056503907c456
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6a6c6d41d3b4b9856b897225f9eb2399
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/_Resource/Effect/SceneEffect/yinghuochong_1021_01.prefab
+Dependencies:
+- D:/Wind2/new_client/ClientProject/Bundles/Windows/children_sceneeffect_yinghuochong_1021_01bundlebundle

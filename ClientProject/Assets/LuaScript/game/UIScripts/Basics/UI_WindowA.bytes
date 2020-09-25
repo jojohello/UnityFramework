@@ -1,0 +1,42 @@
+--- This is an automatically generated class by FairyGUI. Please do not modify it. ---
+
+---@class UI_WindowA : fgui.window_class(WindowBase)
+---@field public __ui GComponent
+---@field public m_frame UI_WindowFrame
+local UI_WindowA = class("UI_WindowA");
+
+UI_WindowA.URL = "ui://9leh0eyfnil";
+
+function UI_WindowA:CreateInstance()
+    self.__ui = UIPackage.CreateObject("Basics","WindowA");
+    self:OnConstruct();
+    return self.__ui;
+end
+
+function UI_WindowA:OnConstruct()
+	self.m_frame = self.__ui:GetChild("frame");
+end
+
+--可覆盖的函数(可选，不是说必须）
+function UI_WindowA:OnInit()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowAonInit")
+    self.contentPane = UIPackage.CreateObject("Basics","WindowA");
+end
+
+function UI_WindowA:OnShown()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowAShown")
+end
+
+function UI_WindowA:OnHide()
+    CS.UnityEngine.Debug.LogWarning(" UI_WindowAHide")
+end
+
+function UI_WindowA:DoShowAnimation()
+    self:OnShown();
+end
+
+function UI_WindowA:DoHideAnimation()
+    self:HideImmediately();
+end
+
+return UI_WindowA;

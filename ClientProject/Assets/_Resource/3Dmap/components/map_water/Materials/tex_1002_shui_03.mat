@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: tex_1002_shui_03
+  m_Shader: {fileID: 4800000, guid: 2f656a497eda78b4fa6af58992849cff, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d4e5dade0d33b6d4680caf42ec99c162, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cap:
+        m_Texture: {fileID: 2800000, guid: b70e24b7a771972468cf2ef868354efe, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 2800000, guid: f4a6d0871c8247d4293bf483804b5f3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0ec04ac63541602458ea711703f6d2d0, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTex:
+        m_Texture: {fileID: 2800000, guid: e08b298c2bd7f974198176e85b0a5e47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTex2:
+        m_Texture: {fileID: 2800000, guid: af3edf31e0fc92c4896d5af541ef2d4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.45
+    - _AlphaScale: 0.138
+    - _AlphaTest: 0.36
+    - _Cutoff: 0.5
+    - _EdgePow: -1.08
+    - _EdgeTransparent: 0
+    - _Intensity: 0.95
+    - _RefScale: 0.1
+    - _ReflDistort: 1.37
+    - _RefrDistort: 0.12
+    - _SpecularRatio: 500
+    - _SwellScale: 0
+    - _Tiling: 0.191
+    - _WaveFresnel: 1.9
+    - _WaveScale: 0.3
+    - _WaveScaleX: 0.2
+    - _WaveScaleZ: 0.2
+    - _WaveSpeed: 2
+    - _WaveSpeedX: 0.65
+    - _WaveSpeedZ: -1.64
+    m_Colors:
+    - WaveSpeed: {r: 8, g: -5, b: 0, a: 0}
+    - _BottomColor: {r: 0.030925613, g: 0.10605833, b: 0.38235295, a: 0}
+    - _DepthColor: {r: 0.11724186, g: 0, b: 1, a: 1}
+    - _EdgeColor: {r: 0.47522068, g: 0.15403332, b: 0.5661765, a: 1}
+    - _HighlightColor: {r: 0, g: 0, b: 1, a: 1}
+    - _LightColorSelf: {r: 0.96957403, g: 1, b: 0.7794118, a: 1}
+    - _LightDir: {r: -0.16, g: -0.06, b: -1.15, a: 0}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RefrColor: {r: 0.32352942, g: 0.94401634, b: 1, a: 1}
+    - _TopColor: {r: 0.4329585, g: 0.5469664, b: 0.6691177, a: 0}
+    - _Vector: {r: 2.27, g: 1.45, b: 0.05, a: 1.08}
+    - _WaterColor: {r: 0.3806228, g: 0.44219065, b: 0.58823526, a: 1}
+    - _WaveOffset: {r: 0.2, g: 0.2, b: -0, a: -2}
+    - _WaveScale4: {r: 1, g: 1, b: 0, a: 1}

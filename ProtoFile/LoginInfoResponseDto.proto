@@ -1,0 +1,17 @@
+package com.server.game.protobuf.proto;
+option java_package = "com.server.game.protobuf.proto";
+option java_outer_classname = "ProtoLoginInfoResponseDto";
+option optimize_for = SPEED;
+
+import "RoleDataInfoDto.proto";
+
+//登陆返回
+message LoginInfoResponseDto{
+    //msgId = 105;
+    //
+    optional string loginKey = 1;
+    //
+    optional int64 time = 2;
+    //
+    optional RoleDataInfoDto roleDataInfoDto = 3;
+}

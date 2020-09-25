@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,570">
+  <displayList>
+    <graph id="n27" name="n27" xy="32,61" size="528,337" type="rect" lineColor="#49959595" fillColor="#ff233e43"/>
+    <image id="n18" name="n18" src="a7vt7m" fileName="images/grid_header_png.png" xy="32,23" size="527,39"/>
+    <list id="n19" name="list1" xy="32,61" size="527,336" overflow="scroll" clipSoftness="0,20" defaultItem="ui://9leh0eyfa7vt7n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n20" name="n20" xy="41,29" size="59,32" group="n25" fontSize="22" color="#ccffff" text="Order"/>
+    <text id="n21" name="n21" xy="432,29" size="59,32" group="n25" fontSize="22" color="#ccffff" text="Stars"/>
+    <text id="n23" name="n23" xy="338,29" size="59,32" group="n25" fontSize="22" color="#ccffff" text="Color"/>
+    <text id="n24" name="n24" xy="178,29" size="48,32" group="n25" fontSize="22" color="#ccffff" text="Name"/>
+    <group id="n25" name="n25" xy="41,29" size="451,26" advanced="true"/>
+    <list id="n37_mkzj" name="n37" xy="577,36" size="546,280" overflow="scroll" defaultItem="ui://9leh0eyfa7vt7n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>
